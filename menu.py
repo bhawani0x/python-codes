@@ -59,7 +59,7 @@ def area():
         print('area of rectangle is : ',c)
     elif (h == 3):
         a = float(input('enter your radius'))
-        c = 3.14 * r *r
+        c = 3.14 *a *a
         print('area of circle is : ',c)
     elif (h == 4):
         a = float(input('enter your first side : '))
