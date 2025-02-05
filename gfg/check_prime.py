@@ -6,7 +6,7 @@ def check_prime(num):
         return False
     else:
         for i in range(2,num):
-            if num > i**i:
+            if num > i**2:
                 if num%i == 0:
                     return False
             else:
